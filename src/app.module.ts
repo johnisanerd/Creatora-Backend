@@ -10,6 +10,7 @@ import { ProfileModule } from './profile/profile.module';
 import { ImageModule } from './common/image/image.module';
 import { GeneratedPostsModule } from './generated-posts/generated-posts.module';
 import { IdeasModule } from './ideas-generation/ideas-generation.module';
+import { WeeklyPlannerModule } from './weekly-planner/weekly-planner.module';
 
 @Module({
   imports: [
@@ -24,6 +25,7 @@ import { IdeasModule } from './ideas-generation/ideas-generation.module';
     ImageModule,
     GeneratedPostsModule,
     IdeasModule,
+    WeeklyPlannerModule,
   ],
   controllers: [AppController],
   providers: [AppService],
