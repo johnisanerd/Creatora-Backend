@@ -11,6 +11,7 @@ import { ImageModule } from './common/image/image.module';
 import { GeneratedPostsModule } from './generated-posts/generated-posts.module';
 import { IdeasModule } from './ideas-generation/ideas-generation.module';
 import { WeeklyPlannerModule } from './weekly-planner/weekly-planner.module';
+import { ChatbotModule } from './chatbot/chatbot.module';
 
 @Module({
   imports: [
@@ -26,6 +27,7 @@ import { WeeklyPlannerModule } from './weekly-planner/weekly-planner.module';
     GeneratedPostsModule,
     IdeasModule,
     WeeklyPlannerModule,
+    ChatbotModule,
   ],
   controllers: [AppController],
   providers: [AppService],
